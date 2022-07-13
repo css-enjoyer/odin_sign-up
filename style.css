@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+}
+
+#main {
+    display: flex;
+    height: 100vh;
+    width: auto;
+}
+
+#imgpanel {
+    background-color: blue;
+    height: 100%;
+    width: 40%;
+}
+
+#formpanel {
+    background-color: rgb(253, 248, 205);
+    height: 100%;
+    width: 60%;
+}
