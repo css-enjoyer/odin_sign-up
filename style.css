@@ -9,9 +9,34 @@ body {
 }
 
 #imgpanel {
-    background-color: blue;
+    background-image: url(/images/building.jpg);
+    background-size: cover;
+    background-position: 25% 75%;
     height: 100%;
     width: 40%;
+}
+
+@font-face {
+    font-family: "Norse";
+    src: url(/fonts/Norse-Bold.otf);
+}
+
+#logobar {
+    position: absolute;
+    background-color: rgba(36, 36, 36, 0.5);
+    height: 150px;
+    width: 40%;
+    top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Norse;
+    font-size: 50px;
+}
+
+#logo {
+    height: 80%;
 }
 
 #formpanel {
