@@ -105,12 +105,19 @@ form input {
     --text-color: rgb(172, 238, 255);    
 }
 
-form button[type="submit"] {
+form button {
     height: 40px;
     border-radius: 10px;
     border: transparent;
     background-color: var(--text-color);
     font-weight: bold;
+    transition: transform .2s, color .2s, background-color .2s;
+}
+
+form button:hover {
+    transform: scale(1.05);
+    color: white;
+    background-color: rgb(109, 188, 207);
 }
 
 form #proceed {
@@ -125,4 +132,9 @@ form #proceed {
 form input:invalid {
     border: 1px solid red;
     box-shadow: 0 0 5px red;
+}
+
+form input:focus {
+    border: 1px solid var(--text-color);
+    box-shadow: 0 0 5px var(--text-color);
 }
