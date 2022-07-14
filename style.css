@@ -51,6 +51,7 @@ body {
     font-weight: bolder;
     color: white;
     padding: 40px;
+    margin-right: 200px;
 }
 
 #formbar {
@@ -124,8 +125,4 @@ form #proceed {
 form input:invalid {
     border: 1px solid red;
     box-shadow: 0 0 5px red;
-}
-
-form input:valid {
-    border: 1px solid var(--text-color);
 }
