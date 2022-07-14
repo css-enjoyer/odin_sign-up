@@ -46,7 +46,7 @@ body {
     align-items: center;
     color: white;
     font-family: Norse;
-    font-size: 50px;
+    font-size: 3rem;
 }
 
 #logo {
@@ -64,8 +64,8 @@ body {
     font-size: 1rem;
     font-weight: bolder;
     color: white;
-    padding: 40px;
-    margin-right: 200px;
+    padding: 0;
+    margin: 12vh 15vw 5vh 2.5vw;
 }
 
 #formbar {
