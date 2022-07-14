@@ -26,7 +26,7 @@ body {
     background-color: rgba(36, 36, 36, 0.5);
     height: 150px;
     width: 40%;
-    top: 200px;
+    top: 125px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,8 +39,93 @@ body {
     height: 80%;
 }
 
-#formpanel {
-    background-color: rgb(253, 248, 205);
-    height: 100%;
-    width: 60%;
+#contentpanel {
+    background-color: rgb(22, 22, 22);
+    width: 60vw;
+    height: 100vh;
+}
+
+#info {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: bolder;
+    color: white;
+    padding: 40px;
+}
+
+#formbar {
+    background-color: rgb(44, 44, 44);
+    height: 300px;
+    width: 100%;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.26);
+    border: transparent;
+    box-sizing: border-box;
+    margin: 0;
+    margin-top: -50px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 3vh 3vw;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: .7rem;
+    color: white;
+    padding: 2vh 3vh;
+}
+
+legend {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+form input {
+    height: 20px;
+    border-radius: 5px;
+}
+
+.ast {
+    color: red;
+}
+
+:root {
+    --text-color: rgb(172, 238, 255);    
+}
+
+form button[type="submit"] {
+    height: 40px;
+    border-radius: 10px;
+    border: transparent;
+    background-color: var(--text-color);
+    font-weight: bold;
+}
+
+form #proceed {
+    margin-top: 30px;
+}
+
+#proceed a {
+    color: rgb(172, 238, 255);
+    text-decoration: none;
+}
+
+form input:invalid {
+    border: 1px solid red;
+    box-shadow: 0 0 5px red;
+}
+
+form input:valid {
+    border: 1px solid var(--text-color);
 }
