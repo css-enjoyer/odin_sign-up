@@ -59,8 +59,11 @@ body {
     height: 100vh;
 }
 
-#info {
+#contentpanel *{
     font-family: 'Montserrat', sans-serif;
+}
+
+#info {
     word-spacing: 2px;
     letter-spacing: 1px;
     font-size: 1rem;
@@ -86,7 +89,6 @@ form {
     grid-template-columns: auto auto;
     grid-gap: 3vh 3vw;
     position: absolute;
-    font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
     font-size: .7rem;
     color: white;
@@ -95,7 +97,6 @@ form {
 
 legend {
     color: white;
-    font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem;
     font-weight: bold;
     padding-top: 45px;
@@ -113,6 +114,7 @@ form input {
     border-radius: 5px;
     padding-left: 5px;
     border: 2px solid #eee;
+    color:rgb(77, 77, 77);
     outline: none;
 }
 
@@ -125,7 +127,6 @@ form input {
 }
 
 form button {
-    font-family: 'Montserrat', sans-serif;
     height: 40px;
     border-radius: 10px;
     border: transparent;
