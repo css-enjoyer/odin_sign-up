@@ -145,9 +145,10 @@ form #proceed {
     text-decoration: none;
 }
 
-form input:invalid {
+form input:focus:invalid {
     border: 1px solid red;
     box-shadow: 0 0 5px red;
+    background-color: pink;
 }
 
 form input:focus {

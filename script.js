@@ -1,9 +1,9 @@
 const inputs = document.querySelectorAll("input");
 
 // Make fields initially valid
-// inputs.forEach((input) => {
-//     input.setCustomValidity("");
-// });
+inputs.forEach((input) => {
+    input.setCustomValidity("");
+});
 
 
 const passwordField = document.querySelector("#password-field");
@@ -15,6 +15,7 @@ const alert = document.createElement("div");
 alert.textContent = "Passwords do not match."
 alert.setAttribute("style", "color: red; font-size: .6rem");
 
+// Make button stay in position upon invalid match
 button.addEventListener("click", () => {
     if((password.value == passwordConfirm.value) && password.value != "" && passwordConfirm.value != "") {
         console.log(password.value);
