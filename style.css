@@ -98,10 +98,10 @@ legend {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem;
     font-weight: bold;
-    padding-top: 50px;
+    padding-top: 45px;
     padding-left: 20px;
 }
-
+  
 form div {
     display: flex;
     flex-direction: column;
@@ -112,6 +112,8 @@ form input {
     height: 20px;
     border-radius: 5px;
     padding-left: 5px;
+    border: 2px solid #eee;
+    outline: none;
 }
 
 .ast {
@@ -162,5 +164,4 @@ form input:focus:invalid {
 
 form input:focus {
     border: 1px solid var(--text-color);
-    box-shadow: 0 0 5px var(--text-color);
 }
