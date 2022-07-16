@@ -166,3 +166,39 @@ form input:focus:invalid {
 form input:focus {
     border: 1px solid var(--text-color);
 }
+
+#hint {
+    color: transparent;
+}
+
+#hint:hover {
+    color: white;
+    animation: colorCycle 5s infinite linear;
+}
+
+@keyframes colorCycle {
+    12.5% {
+        color: #FF0000;
+    }
+    25% {
+        color: #FFA500;
+    }
+    37.5% {
+        color: #FFFF00;
+    }
+    50% {
+        color: #7FFF00;
+    }
+    62.5% {
+        color: #00FFFF;
+    }
+    75% {
+        color: #0000FF;
+    }
+    87.5% {
+        color: #9932CC;
+    }
+    100% {
+        color: #FF1493;
+    }
+}
