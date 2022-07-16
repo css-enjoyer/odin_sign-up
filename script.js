@@ -20,5 +20,15 @@ button.addEventListener("click", () => {
     }
 });
 
+let counter = 0;
+const logo = document.querySelector("#logo");
+let audio = document.querySelector("#boom");
+logo.addEventListener("click", () => {
+    counter++;
+    console.log(counter);
+    if(counter % 5 == 0) {
+        audio.play();
+    }
+});
 
 
