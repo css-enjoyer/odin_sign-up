@@ -31,4 +31,11 @@ logo.addEventListener("click", () => {
     }
 });
 
+const login = document.querySelector("#login");
+const body = document.querySelector("body");
+login.addEventListener("click", () => {
+    body.setAttribute("style", "cursor: url(images/cursor.png), auto");
+    login.textContent = "Log in?"
+});
+
 
