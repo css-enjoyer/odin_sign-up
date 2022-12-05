@@ -2,7 +2,7 @@
 ## Project: Sign-up Form
 This is a mock registration website built with intermediate HTML, CSS concepts.
 
-See the [live preview](https://isaac-was-here.github.io/odin_sign-up/) of my project!
+See the [live preview](https://css-enjoyer.github.io/odin_sign-up/) of my project!
 
 ### Overview
 #### Features:
